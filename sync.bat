@@ -1,9 +1,9 @@
 set filename=%date:~0,4%%date:~5,2%%date:~8,2%%time:~0,2%%time:~3,2%%time:~6,2%
 set "filename=%filename: =0%"
 cd "c:\github\save-game"
-"C:\Program Files\PortableGit\bin\git.exe" config user.name isaac
-"C:\Program Files\PortableGit\bin\git.exe" config user.email xuhonggang@hotmail.com
-"C:\Program Files\PortableGit\bin\git.exe" pull origin main
-"C:\Program Files\PortableGit\bin\git.exe" add -A
-"C:\Program Files\PortableGit\bin\git.exe" commit -a -m %filename%
-"C:\Program Files\PortableGit\bin\git.exe" push origin main
+git config user.name isaac
+git config user.email xuhonggang@hotmail.com
+git pull origin main
+git add -A
+git commit -a -m %filename%
+git push origin main
