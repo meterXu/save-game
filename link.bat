@@ -4,3 +4,6 @@ mklink /J "%ProgramFiles%\yuzu-windows-msvc\user\nand\user\save\0000000000000000
 @REM 仙剑7存档关联
 mkdir "%UserProfile%\AppData\Local\Pal7\Saved"
 mklink /J "%UserProfile%\AppData\Local\Pal7\Saved\steam" "%cd%\仙剑奇侠传7"
+
+@REM 战神4存档关联
+mklink /J "%UserProfile%\Saved Games\God of War" "%cd%\战神4"
