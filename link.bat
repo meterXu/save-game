@@ -1,1 +1,2 @@
-mklink /J "C:\Program Files\yuzu-windows-msvc\user\nand\user\save\0000000000000000\692F66FAAD512B74A7B59BA9102A8196\01007EF00011E000" "C:\github\save-game\塞尔达荒野之息\01007EF00011E000"
+mklink /J "%ProgramFiles%\yuzu-windows-msvc\user\nand\user\save\0000000000000000\692F66FAAD512B74A7B59BA9102A8196\01007EF00011E000" "%cd%\塞尔达荒野之息\01007EF00011E000"
+mklink /J "%UserProfile%\AppData\Local\Pal7\Saved\steam" "%cd%\仙剑奇侠传7"
