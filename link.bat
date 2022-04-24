@@ -10,3 +10,6 @@ mklink /J "%UserProfile%\Saved Games\God of War" "%cd%\战神4"
 
 @REM 风火轮：释放存档关联
 mklink /J "%UserProfile%\AppData\Local\hotwheels\Saved\SaveGames" "%cd%\风火轮：释放"
+
+@REM 赛博朋克2077存档关联
+mklink /J "%UserProfile%\Saved Games\CD Projekt Red\Cyberpunk 2077" "%cd%\赛博朋克2077"
