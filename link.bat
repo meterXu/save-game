@@ -13,3 +13,6 @@ mklink /J "%UserProfile%\AppData\Local\hotwheels\Saved\SaveGames" "%cd%\风火�
 
 @REM 赛博朋克2077存档关联
 mklink /J "%UserProfile%\Saved Games\CD Projekt Red\Cyberpunk 2077" "%cd%\赛博朋克2077"
+
+@REM 银河破裂者存档关联
+mklink /J "%UserProfile%\Documents\The Riftbreaker\campaignV2" "%cd%\银河破裂者"
