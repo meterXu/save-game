@@ -16,3 +16,6 @@ mklink /J "%UserProfile%\Saved Games\CD Projekt Red\Cyberpunk 2077" "%cd%\赛博
 
 @REM 银河破裂者存档关联
 mklink /J "%UserProfile%\Documents\The Riftbreaker\campaignV2" "%cd%\银河破裂者"
+
+@REM 最终幻想7核心危机重制版
+mklink /J "%UserProfile%\Documents\My Games\CRISIS CORE FINAL FANTASY VII REUNION\Steam" "%cd%\最终幻想7核心危机重制版"
